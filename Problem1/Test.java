@@ -26,7 +26,6 @@ class Test
 				found = true;
 				break;
 			}
-
 			else
 			{
 				found = false;
