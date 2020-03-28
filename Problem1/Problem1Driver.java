@@ -20,7 +20,7 @@ public class Problem1Driver
 
 		else
 		{
-			System.out.println("Element not found ...");
+			System.out.println("Element not found...");
 		}
 	}
 }
