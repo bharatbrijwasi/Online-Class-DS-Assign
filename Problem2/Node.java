@@ -5,7 +5,7 @@ class Node
 	Node next;
 
 	public Node(int data)
-	{
+	{	
 		this.data = data;
 		next = null;
 	}
