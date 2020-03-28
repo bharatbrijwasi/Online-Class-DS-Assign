@@ -19,15 +19,15 @@ class Test
 
 	public int maxElement()
 	{
-		int max = 0;
+		int min = arr[0];
 		for(int i = 0; i < arr.length; i++)
 		{
-			if(arr[i] > max)
+			if(arr[i] < min)
 			{
-				max = arr[i];
+				min = arr[i];
 			}
 		}
 
-		return max;
+		return min;
 	}
 }
